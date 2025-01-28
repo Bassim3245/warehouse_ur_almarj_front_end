@@ -1,0 +1,106 @@
+.MOReSTyle {
+    flex-wrap: wrap;
+    border-radius: 25px;
+    overflow: hidden !important;
+    /* background-color: white; */
+}
+
+.containerImageProfile {
+    width: 400px;
+    max-width: 100%;
+    max-height: 100%;
+    height: 400px;
+}
+.profileImage {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.avaterImgeCenterProfole {
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+    max-height: 100%;
+    margin: auto;
+}
+
+.hoverImageUR {
+    transition: 0.5s;
+
+}
+
+.hoverImageUR:hover {
+    transform: scale(1.2);
+}
+
+.textleftend {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btnn {
+    width: 10.5em;
+    height: 2.3em;
+    margin: 0.5em;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.buttonEditUNfo:hover {
+    color: black;
+}
+.buttonEditUNfo:after {
+    content: "";
+    /* background: white; */
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+}
+.buttonEditUNfo:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+@media (max-width: 670px) {
+    .responsevVontainer{
+        flex-direction: column;
+    }
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: .25rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
+}
+.me-2 {
+    margin-right: .5rem!important;
+}
+.card-profile{
+        position: relative;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease-in-out;
+}

@@ -1,0 +1,204 @@
+
+
+.sectionFileUpload {
+  background-color: #222;
+  color: #fff;
+}
+
+#drop-area {
+  border: 2px dashed #aaa;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  border-radius: 8px;
+  min-height: 2in;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.drop-text {
+  font-size: 18px;
+  color: #888;
+}
+
+#dropped-content {
+  width: calc(100% - 23px);
+  height: 200px;
+  min-height: 69px;
+  max-height: 312px;
+  margin-top: 20px;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #555;
+  resize: vertical;
+  background-color: #444;
+  color: #fff;
+  outline: none;
+  border-radius: 8px;
+}
+
+#dropped-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+#dropped-content::-webkit-scrollbar-track {
+  background-color: #444;
+}
+
+#dropped-content::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+#dropped-content::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+}
+
+.drop-icon i {
+  color: #888;
+  font-size: 4.5rem;
+}
+
+#chars {
+  color: #888;
+  float: right;
+}
+
+#spellcheck {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#outer-dot {
+  background-color: #007bff;
+  width: 3rem;
+  height: 1.5rem;
+  border-radius: 100px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background 200ms;
+}
+
+#dot {
+  background-color: #eee;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  margin: 0 5px;
+  transform: translateX(22px);
+  transition: transform 200ms;
+}
+/* .wrap {
+  width: 500px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 2px 0 #c9ced1;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+} */
+/* .wrap h1 {
+  margin: 0 0 20px;
+  padding-top: 15px;
+  font-size: 18px;
+} */
+
+.upload__wrap {
+  padding-bottom: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px dotted #edeff0;
+
+}
+.upload__mess {
+  border-left: solid 3px #ffb74d;
+  padding-left: 0.5rem;
+  color: #b5bac1;
+}
+.upload p {
+  line-height: 2;
+}
+.upload p strong {
+  color: #2f3640;
+  padding-left: 0.3125rem;
+}
+.upload__item {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 1.5625rem;
+  margin-bottom: 1.5625rem;
+}
+.upload__del {
+  display: block;
+  position: absolute;
+  right: -8px;
+  top: -8px;
+  /* width: 21px;
+  height: 22px; */
+  /* background: url("http://timra.ru/portfolio/8_auto.uz/img/icons/delete-icon-copy.svg") 0 0 no-repeat; */
+  cursor: pointer;
+  opacity: 0.8;
+}
+.upload__del:hover {
+  opacity: 1;
+}
+.upload__img {
+  width: 5.6875rem;
+  height: 5.6875rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.upload__btn {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+
+  line-height: 5.6875rem;
+  border-radius: 2px;
+  /* border: solid 0.5px #dee1e6; */
+  text-align: center;
+  cursor: pointer;
+  opacity: 0.6;
+  overflow: hidden;
+  width:150px;
+  max-width:100%;
+}
+.upload__btn:after {
+  content: "+";
+  color: #dee1e6;
+  font-size: 2.5rem;
+  line-height: 5rem;
+  cursor: pointer;
+}
+.upload__btn:hover {
+  opacity: 0.99;
+}
+.upload__btn:active {
+  box-shadow: inset 10px 10px 90px -30px rgba(0, 0, 0, 0.1);
+}
+.upload__input {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.hidden_ms {
+  display: none;
+}
+
+/* ------------------------------ UPLOAD BTNS END ------------------------------ */

@@ -1,0 +1,21 @@
+
+  @media print {
+    #print-content {
+      width: 210mm;
+      height: 297mm;
+      margin: 10mm auto;
+      page-break-after: always;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    table, th, td {
+      border: 1px solid black;
+      padding: 8px;
+    }
+    th {
+      background-color: #1e6a99;
+      color: white;
+    }
+  }

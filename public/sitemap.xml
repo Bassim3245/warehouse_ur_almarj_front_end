@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Main Routes -->
+  <url>
+    <loc>https://tamm.industry.gov.iq/</loc>
+    <lastmod>2024-12-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Products and Materials -->
+  <url>
+    <loc>https://tamm.industry.gov.iq/All-Category</loc>
+    <lastmod>2024-12-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- About Page -->
+  <url>
+    <loc>https://tamm.industry.gov.iq/about-page</loc>
+    <lastmod>2024-12-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Help Platform -->
+  <url>
+    <loc>https://tamm.industry.gov.iq/help-platform</loc>
+    <lastmod>2024-12-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Dashboard -->
+  <url>
+    <loc>https://tamm.industry.gov.iq/Dashboard</loc>
+    <lastmod>2024-12-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- User Management -->
+  <url>
+    <loc>https://tamm.industry.gov.iq/UserManagementAllUsers</loc>
+    <lastmod>2024-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Obsolete Materials -->
+  <url>
+    <loc>https://tamm.industry.gov.iq/ListOfObsoleteItems</loc>
+    <lastmod>2024-12-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Approvals -->
+  <url>
+    <loc>https://tamm.industry.gov.iq/Obsolete-Material-Approve-Admin</loc>
+    <lastmod>2024-12-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Booking Management -->
+  <url>
+    <loc>https://tamm.industry.gov.iq/BookObsoleteMaterial</loc>
+    <lastmod>2024-12-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Notifications -->
+  <url>
+    <loc>https://tamm.industry.gov.iq/Notification</loc>
+    <lastmod>2024-12-16</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Profile -->
+  <url>
+    <loc>https://tamm.industry.gov.iq/profile</loc>
+    <lastmod>2024-12-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Archive -->
+  <url>
+    <loc>https://tamm.industry.gov.iq/archive</loc>
+    <lastmod>2024-12-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>

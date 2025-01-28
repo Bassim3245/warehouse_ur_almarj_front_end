@@ -1,0 +1,34 @@
+.header-line-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  padding: 20px 0;
+}
+
+.header-line-title {
+  position: relative;
+  padding: 0 20px;
+  text-align: center;
+  color: #1e6a99;
+}
+
+.header-line-title::before,
+.header-line-title::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 300px; /* Adjust the width as needed */
+  height: 2px; /* Adjust the height as needed */
+  background-color: #000; /* Adjust the color as needed */
+  transform: translateY(-50%);
+}
+.header-line-title::before {
+  left: -320px; /* Adjust this value based on the width of the line and padding */
+}
+
+.header-line-title::after {
+  right: -320px; /* Adjust this value based on the width of the line and padding */
+}
